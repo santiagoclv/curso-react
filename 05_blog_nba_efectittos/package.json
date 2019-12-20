@@ -13,8 +13,8 @@
     "react-transition-group": "^4.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "json-serve": "json-server --watch db.json --port 3005",
+    "start": "json-serve react-scripts start",
+    "json-serve": "npx json-server --watch db.json --port 3005",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
