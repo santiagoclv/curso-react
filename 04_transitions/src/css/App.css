@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+.btn-add, 
+.btn-remove {
+  background: #9E9E9E;
+  color: #FFf;
+  text-align: center;
+  padding: 10px;
+}
+.btn-remove {
+    background: #F44336;
+}
+
+.anim_index a {
+    background: #E91E63;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.showDiv {
+  background: #03A9F4;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*=======================================
+            TRANSITIONS BASIC 
+========================================*/
+
+.square {
+  background:red;
+  height:100px;
+  opacity:1;
+  transition: all 1s ease;
+}
+
+.square-entering {
+  opacity:1;
+  transform: translateX(0%)
+}
+
+.square-entered {
+  background: blue;
+}
+
+.square-exiting {
+  background: green
+}
+
+.square-exited {
+  opacity: 0;
+  transform: translateX(-100%)
+}
+
+/*=======================================
+                TRANSITIONS GROUP 
+========================================*/
+
+
+
+.item {
+  background: #2196F3;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1px;
+  padding: 10px;
+
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.item-enter-done,
+.item-enter-active {
+  opacity: 1;
+}
+
+.item-exit-done,
+.item-exit-active {
+  opacity: 0;
+}

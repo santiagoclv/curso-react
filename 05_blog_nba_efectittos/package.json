@@ -1,0 +1,40 @@
+{
+  "name": "r_proj_2_nba",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^v5.1.2",
+    "react-scripts": "3.3.0",
+    "react-slick": "^0.25.2",
+    "react-transition-group": "^4.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "json-serve": "json-server --watch db.json --port 3005",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "json-server": "^0.15.1"
+  }
+}
